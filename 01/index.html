@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,38 +9,47 @@
 </head>
 
 <body>
-    
 
-    <header class="header">
-        <div class="header_container">
 
-            <section class="header_logo_cell">
-                <img src=""alt="Logo">
-            </section>
+    <div id="header">
+        <div id="header_container">
 
-            <nav class="header_menu_cell">
-                <h1 class="header_menu_header">Menu</h1>
-                <ul class="header_menu_list">
-                    <li class="header_menu_list_item_1">Zaloguj się</li>
-                    <li class="header_menu_list_item_2">O nas</li>
-                    <li class="header_menu_list_item_3">Kontakt</li>
+            <div id="header_logo_cell">
+                <img src="./jpg/logo.jpg" alt="Logo" width="50">
+            </div>
+
+            <div id="header_menu_cell">
+                <h2 id="header_menu_header">Menu</h2>
+                <ul id="header_menu_list">
+                    <a href="./#main_article_cell">
+                        <li id="header_menu_list_item_1">Article</li>
+                    </a>
+                    <a href="./#main_form_cell">
+                        <li id="header_menu_list_item_2">Form</li>
+                    </a>
+                    <a href="./#main_comments_cell">
+                        <li id="header_menu_list_item_3">Comments</li>
+                    </a>
+                    <a href="./#footer_copyrights_cell">
+                        <li id="header_menu_list_item_4">Footer</li>
+                    </a>
                 </ul>
-            </nav>
+            </div>
 
         </div>
-    </header>
+    </div>
 
 
-    <main class="main">
-       <div class="main_container">
-            
-            <article class="main_article_cell">
-                <h1 class="">Tytuł</h1>
+    <div id="main">
+        <div id="main_container">
+
+            <div id="main_article_cell">
+                <h2 class="">Tytuł</h2>
                 <p class="">Treść</p>
                 <p class="">Data publikacji</p>
                 <p class="">Autor</p>
                 <img class="">Ilustracja</img>
-                
+
                 <table>
                     <caption>Tytuł tabeli</caption>
                     <thread>
@@ -63,46 +73,50 @@
                     </tbody>
                 </table>
 
-            </article>
+            </div>
 
-            <form class="main_form_cell">
-                <div>
-                    <h1 class="main_form_title">Formularz do komentowania</h1>
-                    <textarea name="Formularz_do_komentowania">Tu wpisz komentarz</textarea>
-                </div>
-                <div><input type="submit"/></div>
-            </form>
+            <div id="main_form_cell">
+                <form>
+                    <div>
+                        <h2 id="main_form_title">Formularz do komentowania</h2>
+                        <textarea placeholder="Tu wpisz komentarz" name="Formularz_do_komentowania"></textarea>
+                    </div>
+                    <div>
+                        <button>Prześlij</button>
+                    </div>
+                </form>
+            </div>
 
-            <section class="main_comments_cell">Komentarze
-                <div class="main_comments_comment1">
-                    <div>Treść komentarza 1</div>
-                    <div>Autor komentarza 1</div>
-                    <div>Data utworzenia 1</div>
+            <div id="main_comments_cell">
+                <div id="main_comments_comment1">
+                    <p>Treść komentarza 1</p>
+                    <p>Autor komentarza 1</p>
+                    <p>Data utworzenia 1</p>
                 </div>
-                <div class="main_comments_comment2">
-                    <div>Treść komentarza 2</div>
-                    <div>Autor komentarza 2</div>
-                    <div>Data utworzenia 2</div>
+                <div id="main_comments_comment2">
+                    <p>Treść komentarza 2</p>
+                    <p>Autor komentarza 2</p>
+                    <p>Data utworzenia 2</p>
                 </div>
-                <div class="main_comments_comment3">
-                    <div>Treść komentarza 3</div>
-                    <div>Autor komentarza 3</div>
-                    <div>Data utworzenia 3</div>
+                <div id="main_comments_comment3">
+                    <p>Treść komentarza 3</p>
+                    <p>Autor komentarza 3</p>
+                    <p>Data utworzenia 3</p>
                 </div>
-            </section>
+            </div>
 
         </div>
-    </main>
+        </main>
 
 
-    <footer class="footer">
-        <section class="footer_container">
-            <div class="footer_copyrights">
-                Footer - copyrights.
+        <div id="footer">
+            <div id="footer_container">
+                <div id="footer_copyrights_cell">
+                    Footer - copyrights.
+                </div>
             </div>
-        </section>
-    </footer>
-    
+        </div>
+
 
 </body>
 
